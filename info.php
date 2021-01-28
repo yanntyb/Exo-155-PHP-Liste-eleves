@@ -33,7 +33,7 @@ if(isset($tab[$index]["info"])){
     <link rel="stylesheet" href="style_info.css">
 </head>
 <body>
-    <div class="info">
+    <div id="info">
         <img id="img" src="https://lh3.googleusercontent.com/proxy/eI1Y6n9UnVcEZ6yB4uh4YfxDlmSSrZKHbO3XJdsVCU_cajxf9YVFS_wxelUKGYQkLnuwxiJ2vpInGHmCP1KS_7Thkqb6ad5OeTAYrUkA_nPLoUE" alt="">
         <?php
         foreach($info as $item => $value){
