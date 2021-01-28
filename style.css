@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tab{
+    position: relative;
+    border: 1px solid black;
+    width: 10%;
+    background-color: darkgrey;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+a:hover{
+    color: coral;
+}
